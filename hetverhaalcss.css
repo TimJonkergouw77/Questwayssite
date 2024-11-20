@@ -1,0 +1,333 @@
+body {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.192), rgb(0, 0, 0)), 
+    url("Images/quest ways achtergrond.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;   
+
+  }
+  
+  
+    .navbar {
+      background-color: #021404; 
+      padding: 10px; 
+      top: 0;
+      margin-bottom: 30px;
+      width: 100%;
+  }
+  
+  .navbar ul {
+      list-style-type: none; 
+      margin: 0; 
+      padding: 0; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar li {
+      margin: 0 15px; 
+  }
+  
+  .navbar a {
+      color: white; 
+      text-decoration: none; 
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .navbar a:hover {
+      text-decoration: underline; 
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hetverhaal {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hetverhaaltext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+}
+
+.hetverhaal h1 {
+    margin-bottom: 10px; 
+}
+
+.hetverhaal p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.hetverhaal img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px;
+    border-radius: 10%;
+}
+
+.tradingshop {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row-reverse; 
+}
+
+.tradingshoptext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+    margin-right: 40px;
+}
+
+.tradingshop h1 {
+    margin-bottom: 10px; 
+}
+
+.tradingshop p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.tradingshop img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px; 
+    border-radius: 10%; 
+}
+
+
+
+.farmhouse {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.farmhousetext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+}
+
+.farmhouse h1 {
+    margin-bottom: 10px; 
+}
+
+.farmhouse p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.farmhouse img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px;
+    border-radius: 10%;
+}
+
+.farmersfield {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row-reverse; 
+}
+
+.farmersfieldtext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+    margin-right: 40px;
+}
+
+.farmersfield h1 {
+    margin-bottom: 10px; 
+}
+
+.farmersfield p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.farmersfield img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px; 
+    border-radius: 10%; 
+}
+
+
+
+.herbalisthut {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.herbalisthuttext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+}
+
+.herbalisthut h1 {
+    margin-bottom: 10px; 
+}
+
+.herbalisthut p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.herbalisthut img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px;
+    border-radius: 10%;
+}
+
+
+
+.herbgarden {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row-reverse; 
+}
+
+.herbgardentext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+    margin-right: 40px;
+}
+
+.herbgarden h1 {
+    margin-bottom: 10px; 
+}
+
+.herbgarden p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.herbgarden img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px; 
+    border-radius: 10%; 
+}
+
+.towngate {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.towngatetext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+}
+
+.towngate h1 {
+    margin-bottom: 10px; 
+}
+
+.towngate p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.towngate img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px;
+    border-radius: 10%;
+}
+
+.spiderforest {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding: 20px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row-reverse; /* Dit zorgt ervoor dat de afbeelding aan de linker kant komt */
+}
+
+.spiderforesttext-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+    text-align: left; 
+    margin-right: 40px;
+}
+
+.spiderforest h1 {
+    margin-bottom: 10px; 
+}
+
+.spiderforest p {
+    line-height: 1.6; 
+    margin-bottom: 0; 
+}
+
+.spiderforest img {
+    width: 30%; 
+    object-fit: cover; 
+    margin-right: 40px; 
+    border-radius: 10%; 
+}
+
+.footer{
+    margin-top: 400px;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
